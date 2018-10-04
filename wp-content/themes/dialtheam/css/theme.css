@@ -11374,7 +11374,8 @@ html * {
   -ms-text-size-ajust: 100%;
   -moz-text-size-ajust: 100%;
   -webkit-text-size-ajust: 100%;
-  text-size-ajust: 100%; }
+  text-size-ajust: 100%;
+  color: #fff; }
 
 html {
   font-size: 62.5%; }
@@ -11383,7 +11384,8 @@ body {
   overflow-x: hidden;
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
-  background-color: #000000; }
+  background-color: #000000;
+  color: #fff; }
 
 a {
   text-decoration: none;
@@ -11407,7 +11409,7 @@ input, textarea, select {
 
 p {
   font-weight: 400;
-  color: #000000;
+  color: #fff;
   line-height: 1.5em;
   font-size: 28.8px;
   font-size: 1.8rem;
@@ -11597,255 +11599,66 @@ input.form-control-lg,
     border: none;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease; }
-    .form-group select.form-control::-webkit-input-placeholder,
-    .form-group .wpcf7 select::-webkit-input-placeholder, .wpcf7 .form-group select::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p select::-webkit-input-placeholder,
-    .form-group textarea.form-control::-webkit-input-placeholder,
-    .form-group .wpcf7 textarea::-webkit-input-placeholder,
-    .wpcf7 .form-group textarea::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p textarea::-webkit-input-placeholder,
-    .form-group input.form-control::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input.form-control::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=text]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=text]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=text]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=search]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=search]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=search]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=url]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=url]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=url]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=tel]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=tel]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=tel]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=number]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=number]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=number]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=range]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=range]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=range]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=date]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=date]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=date]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=month]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=month]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=month]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=week]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=week]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=week]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=time]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=time]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=time]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=datetime]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=datetime]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=datetime-local]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=datetime-local]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime-local]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=color]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=color]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=color]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=email]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=email]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=email]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=file]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=file]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=file]::-webkit-input-placeholder,
-    .form-group .wpcf7 input[type=submit]::-webkit-input-placeholder,
-    .wpcf7 .form-group input[type=submit]::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=submit]::-webkit-input-placeholder,
-    .form-group .wpcf7 input.wpcf7-validation-errors::-webkit-input-placeholder,
-    .wpcf7 .form-group input.wpcf7-validation-errors::-webkit-input-placeholder,
-    .wpcf7 .wpcf7-form p input.wpcf7-validation-errors::-webkit-input-placeholder {
-      color: #000000;
-      -webkit-transition: all 500ms ease;
-      transition: all 500ms ease; }
-    .form-group select.form-control:-ms-input-placeholder,
-    .form-group .wpcf7 select:-ms-input-placeholder, .wpcf7 .form-group select:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p select:-ms-input-placeholder,
-    .form-group textarea.form-control:-ms-input-placeholder,
-    .form-group .wpcf7 textarea:-ms-input-placeholder,
-    .wpcf7 .form-group textarea:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p textarea:-ms-input-placeholder,
-    .form-group input.form-control:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input.form-control:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=text]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=text]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=text]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=search]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=search]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=search]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=url]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=url]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=url]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=tel]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=tel]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=tel]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=number]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=number]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=number]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=range]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=range]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=range]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=date]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=date]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=date]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=month]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=month]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=month]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=week]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=week]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=week]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=time]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=time]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=time]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=datetime]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=datetime]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=datetime-local]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=datetime-local]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime-local]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=color]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=color]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=color]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=email]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=email]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=email]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=file]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=file]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=file]:-ms-input-placeholder,
-    .form-group .wpcf7 input[type=submit]:-ms-input-placeholder,
-    .wpcf7 .form-group input[type=submit]:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=submit]:-ms-input-placeholder,
-    .form-group .wpcf7 input.wpcf7-validation-errors:-ms-input-placeholder,
-    .wpcf7 .form-group input.wpcf7-validation-errors:-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:-ms-input-placeholder {
-      color: #000000;
-      -webkit-transition: all 500ms ease;
-      transition: all 500ms ease; }
-    .form-group select.form-control::-ms-input-placeholder,
-    .form-group .wpcf7 select::-ms-input-placeholder, .wpcf7 .form-group select::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p select::-ms-input-placeholder,
-    .form-group textarea.form-control::-ms-input-placeholder,
-    .form-group .wpcf7 textarea::-ms-input-placeholder,
-    .wpcf7 .form-group textarea::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p textarea::-ms-input-placeholder,
-    .form-group input.form-control::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input.form-control::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=text]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=text]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=text]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=search]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=search]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=search]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=url]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=url]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=url]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=tel]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=tel]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=tel]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=number]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=number]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=number]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=range]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=range]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=range]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=date]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=date]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=date]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=month]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=month]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=month]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=week]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=week]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=week]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=time]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=time]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=time]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=datetime]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=datetime]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=datetime-local]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=datetime-local]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime-local]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=color]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=color]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=color]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=email]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=email]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=email]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=file]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=file]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=file]::-ms-input-placeholder,
-    .form-group .wpcf7 input[type=submit]::-ms-input-placeholder,
-    .wpcf7 .form-group input[type=submit]::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input[type=submit]::-ms-input-placeholder,
-    .form-group .wpcf7 input.wpcf7-validation-errors::-ms-input-placeholder,
-    .wpcf7 .form-group input.wpcf7-validation-errors::-ms-input-placeholder,
-    .wpcf7 .wpcf7-form p input.wpcf7-validation-errors::-ms-input-placeholder {
-      color: #000000;
-      -webkit-transition: all 500ms ease;
-      transition: all 500ms ease; }
-    .form-group select.form-control::placeholder,
-    .form-group .wpcf7 select::placeholder, .wpcf7 .form-group select::placeholder,
-    .wpcf7 .wpcf7-form p select::placeholder,
-    .form-group textarea.form-control::placeholder,
-    .form-group .wpcf7 textarea::placeholder,
-    .wpcf7 .form-group textarea::placeholder,
-    .wpcf7 .wpcf7-form p textarea::placeholder,
-    .form-group input.form-control::placeholder,
-    .wpcf7 .wpcf7-form p input.form-control::placeholder,
-    .form-group .wpcf7 input[type=text]::placeholder,
-    .wpcf7 .form-group input[type=text]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=text]::placeholder,
-    .form-group .wpcf7 input[type=search]::placeholder,
-    .wpcf7 .form-group input[type=search]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=search]::placeholder,
-    .form-group .wpcf7 input[type=url]::placeholder,
-    .wpcf7 .form-group input[type=url]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=url]::placeholder,
-    .form-group .wpcf7 input[type=tel]::placeholder,
-    .wpcf7 .form-group input[type=tel]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=tel]::placeholder,
-    .form-group .wpcf7 input[type=number]::placeholder,
-    .wpcf7 .form-group input[type=number]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=number]::placeholder,
-    .form-group .wpcf7 input[type=range]::placeholder,
-    .wpcf7 .form-group input[type=range]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=range]::placeholder,
-    .form-group .wpcf7 input[type=date]::placeholder,
-    .wpcf7 .form-group input[type=date]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=date]::placeholder,
-    .form-group .wpcf7 input[type=month]::placeholder,
-    .wpcf7 .form-group input[type=month]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=month]::placeholder,
-    .form-group .wpcf7 input[type=week]::placeholder,
-    .wpcf7 .form-group input[type=week]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=week]::placeholder,
-    .form-group .wpcf7 input[type=time]::placeholder,
-    .wpcf7 .form-group input[type=time]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=time]::placeholder,
-    .form-group .wpcf7 input[type=datetime]::placeholder,
-    .wpcf7 .form-group input[type=datetime]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime]::placeholder,
-    .form-group .wpcf7 input[type=datetime-local]::placeholder,
-    .wpcf7 .form-group input[type=datetime-local]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=datetime-local]::placeholder,
-    .form-group .wpcf7 input[type=color]::placeholder,
-    .wpcf7 .form-group input[type=color]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=color]::placeholder,
-    .form-group .wpcf7 input[type=email]::placeholder,
-    .wpcf7 .form-group input[type=email]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=email]::placeholder,
-    .form-group .wpcf7 input[type=file]::placeholder,
-    .wpcf7 .form-group input[type=file]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=file]::placeholder,
-    .form-group .wpcf7 input[type=submit]::placeholder,
-    .wpcf7 .form-group input[type=submit]::placeholder,
-    .wpcf7 .wpcf7-form p input[type=submit]::placeholder,
-    .form-group .wpcf7 input.wpcf7-validation-errors::placeholder,
-    .wpcf7 .form-group input.wpcf7-validation-errors::placeholder,
-    .wpcf7 .wpcf7-form p input.wpcf7-validation-errors::placeholder {
+    .form-group select.form-control:placeholder,
+    .form-group .wpcf7 select:placeholder, .wpcf7 .form-group select:placeholder,
+    .wpcf7 .wpcf7-form p select:placeholder,
+    .form-group textarea.form-control:placeholder,
+    .form-group .wpcf7 textarea:placeholder,
+    .wpcf7 .form-group textarea:placeholder,
+    .wpcf7 .wpcf7-form p textarea:placeholder,
+    .form-group input.form-control:placeholder,
+    .wpcf7 .wpcf7-form p input.form-control:placeholder,
+    .form-group .wpcf7 input:placeholder[type=text],
+    .wpcf7 .form-group input:placeholder[type=text],
+    .wpcf7 .wpcf7-form p input:placeholder[type=text],
+    .form-group .wpcf7 input:placeholder[type=search],
+    .wpcf7 .form-group input:placeholder[type=search],
+    .wpcf7 .wpcf7-form p input:placeholder[type=search],
+    .form-group .wpcf7 input:placeholder[type=url],
+    .wpcf7 .form-group input:placeholder[type=url],
+    .wpcf7 .wpcf7-form p input:placeholder[type=url],
+    .form-group .wpcf7 input:placeholder[type=tel],
+    .wpcf7 .form-group input:placeholder[type=tel],
+    .wpcf7 .wpcf7-form p input:placeholder[type=tel],
+    .form-group .wpcf7 input:placeholder[type=number],
+    .wpcf7 .form-group input:placeholder[type=number],
+    .wpcf7 .wpcf7-form p input:placeholder[type=number],
+    .form-group .wpcf7 input:placeholder[type=range],
+    .wpcf7 .form-group input:placeholder[type=range],
+    .wpcf7 .wpcf7-form p input:placeholder[type=range],
+    .form-group .wpcf7 input:placeholder[type=date],
+    .wpcf7 .form-group input:placeholder[type=date],
+    .wpcf7 .wpcf7-form p input:placeholder[type=date],
+    .form-group .wpcf7 input:placeholder[type=month],
+    .wpcf7 .form-group input:placeholder[type=month],
+    .wpcf7 .wpcf7-form p input:placeholder[type=month],
+    .form-group .wpcf7 input:placeholder[type=week],
+    .wpcf7 .form-group input:placeholder[type=week],
+    .wpcf7 .wpcf7-form p input:placeholder[type=week],
+    .form-group .wpcf7 input:placeholder[type=time],
+    .wpcf7 .form-group input:placeholder[type=time],
+    .wpcf7 .wpcf7-form p input:placeholder[type=time],
+    .form-group .wpcf7 input:placeholder[type=datetime],
+    .wpcf7 .form-group input:placeholder[type=datetime],
+    .wpcf7 .wpcf7-form p input:placeholder[type=datetime],
+    .form-group .wpcf7 input:placeholder[type=datetime-local],
+    .wpcf7 .form-group input:placeholder[type=datetime-local],
+    .wpcf7 .wpcf7-form p input:placeholder[type=datetime-local],
+    .form-group .wpcf7 input:placeholder[type=color],
+    .wpcf7 .form-group input:placeholder[type=color],
+    .wpcf7 .wpcf7-form p input:placeholder[type=color],
+    .form-group .wpcf7 input:placeholder[type=email],
+    .wpcf7 .form-group input:placeholder[type=email],
+    .wpcf7 .wpcf7-form p input:placeholder[type=email],
+    .form-group .wpcf7 input:placeholder[type=file],
+    .wpcf7 .form-group input:placeholder[type=file],
+    .wpcf7 .wpcf7-form p input:placeholder[type=file],
+    .form-group .wpcf7 input:placeholder[type=submit],
+    .wpcf7 .form-group input:placeholder[type=submit],
+    .wpcf7 .wpcf7-form p input:placeholder[type=submit],
+    .form-group .wpcf7 input.wpcf7-validation-errors:placeholder,
+    .wpcf7 .form-group input.wpcf7-validation-errors:placeholder,
+    .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:placeholder {
       color: #000000;
       -webkit-transition: all 500ms ease;
       transition: all 500ms ease; }
@@ -11911,249 +11724,66 @@ input.form-control-lg,
     .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:hover {
       background-color: #c9d302;
       color: #fff; }
-      .form-group select.form-control:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 select:hover::-webkit-input-placeholder, .wpcf7 .form-group select:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p select:hover::-webkit-input-placeholder,
-      .form-group textarea.form-control:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 textarea:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group textarea:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p textarea:hover::-webkit-input-placeholder,
-      .form-group input.form-control:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input.form-control:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=text]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=text]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=text]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=search]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=search]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=search]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=url]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=url]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=url]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=tel]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=tel]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=tel]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=number]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=number]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=number]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=range]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=range]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=range]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=date]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=date]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=date]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=month]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=month]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=month]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=week]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=week]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=week]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=time]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=time]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=time]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=datetime]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=datetime]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=datetime-local]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=datetime-local]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime-local]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=color]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=color]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=color]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=email]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=email]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=email]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=file]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=file]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=file]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input[type=submit]:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input[type=submit]:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=submit]:hover::-webkit-input-placeholder,
-      .form-group .wpcf7 input.wpcf7-validation-errors:hover::-webkit-input-placeholder,
-      .wpcf7 .form-group input.wpcf7-validation-errors:hover::-webkit-input-placeholder,
-      .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:hover::-webkit-input-placeholder {
-        color: #fff; }
-      .form-group select.form-control:hover:-ms-input-placeholder,
-      .form-group .wpcf7 select:hover:-ms-input-placeholder, .wpcf7 .form-group select:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p select:hover:-ms-input-placeholder,
-      .form-group textarea.form-control:hover:-ms-input-placeholder,
-      .form-group .wpcf7 textarea:hover:-ms-input-placeholder,
-      .wpcf7 .form-group textarea:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p textarea:hover:-ms-input-placeholder,
-      .form-group input.form-control:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input.form-control:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=text]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=text]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=text]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=search]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=search]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=search]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=url]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=url]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=url]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=tel]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=tel]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=tel]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=number]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=number]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=number]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=range]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=range]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=range]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=date]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=date]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=date]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=month]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=month]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=month]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=week]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=week]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=week]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=time]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=time]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=time]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=datetime]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=datetime]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=datetime-local]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=datetime-local]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime-local]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=color]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=color]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=color]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=email]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=email]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=email]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=file]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=file]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=file]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input[type=submit]:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input[type=submit]:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=submit]:hover:-ms-input-placeholder,
-      .form-group .wpcf7 input.wpcf7-validation-errors:hover:-ms-input-placeholder,
-      .wpcf7 .form-group input.wpcf7-validation-errors:hover:-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:hover:-ms-input-placeholder {
-        color: #fff; }
-      .form-group select.form-control:hover::-ms-input-placeholder,
-      .form-group .wpcf7 select:hover::-ms-input-placeholder, .wpcf7 .form-group select:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p select:hover::-ms-input-placeholder,
-      .form-group textarea.form-control:hover::-ms-input-placeholder,
-      .form-group .wpcf7 textarea:hover::-ms-input-placeholder,
-      .wpcf7 .form-group textarea:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p textarea:hover::-ms-input-placeholder,
-      .form-group input.form-control:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input.form-control:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=text]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=text]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=text]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=search]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=search]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=search]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=url]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=url]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=url]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=tel]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=tel]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=tel]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=number]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=number]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=number]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=range]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=range]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=range]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=date]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=date]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=date]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=month]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=month]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=month]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=week]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=week]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=week]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=time]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=time]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=time]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=datetime]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=datetime]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=datetime-local]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=datetime-local]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime-local]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=color]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=color]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=color]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=email]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=email]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=email]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=file]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=file]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=file]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input[type=submit]:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input[type=submit]:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input[type=submit]:hover::-ms-input-placeholder,
-      .form-group .wpcf7 input.wpcf7-validation-errors:hover::-ms-input-placeholder,
-      .wpcf7 .form-group input.wpcf7-validation-errors:hover::-ms-input-placeholder,
-      .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:hover::-ms-input-placeholder {
-        color: #fff; }
-      .form-group select.form-control:hover::placeholder,
-      .form-group .wpcf7 select:hover::placeholder, .wpcf7 .form-group select:hover::placeholder,
-      .wpcf7 .wpcf7-form p select:hover::placeholder,
-      .form-group textarea.form-control:hover::placeholder,
-      .form-group .wpcf7 textarea:hover::placeholder,
-      .wpcf7 .form-group textarea:hover::placeholder,
-      .wpcf7 .wpcf7-form p textarea:hover::placeholder,
-      .form-group input.form-control:hover::placeholder,
-      .wpcf7 .wpcf7-form p input.form-control:hover::placeholder,
-      .form-group .wpcf7 input[type=text]:hover::placeholder,
-      .wpcf7 .form-group input[type=text]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=text]:hover::placeholder,
-      .form-group .wpcf7 input[type=search]:hover::placeholder,
-      .wpcf7 .form-group input[type=search]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=search]:hover::placeholder,
-      .form-group .wpcf7 input[type=url]:hover::placeholder,
-      .wpcf7 .form-group input[type=url]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=url]:hover::placeholder,
-      .form-group .wpcf7 input[type=tel]:hover::placeholder,
-      .wpcf7 .form-group input[type=tel]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=tel]:hover::placeholder,
-      .form-group .wpcf7 input[type=number]:hover::placeholder,
-      .wpcf7 .form-group input[type=number]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=number]:hover::placeholder,
-      .form-group .wpcf7 input[type=range]:hover::placeholder,
-      .wpcf7 .form-group input[type=range]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=range]:hover::placeholder,
-      .form-group .wpcf7 input[type=date]:hover::placeholder,
-      .wpcf7 .form-group input[type=date]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=date]:hover::placeholder,
-      .form-group .wpcf7 input[type=month]:hover::placeholder,
-      .wpcf7 .form-group input[type=month]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=month]:hover::placeholder,
-      .form-group .wpcf7 input[type=week]:hover::placeholder,
-      .wpcf7 .form-group input[type=week]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=week]:hover::placeholder,
-      .form-group .wpcf7 input[type=time]:hover::placeholder,
-      .wpcf7 .form-group input[type=time]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=time]:hover::placeholder,
-      .form-group .wpcf7 input[type=datetime]:hover::placeholder,
-      .wpcf7 .form-group input[type=datetime]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime]:hover::placeholder,
-      .form-group .wpcf7 input[type=datetime-local]:hover::placeholder,
-      .wpcf7 .form-group input[type=datetime-local]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=datetime-local]:hover::placeholder,
-      .form-group .wpcf7 input[type=color]:hover::placeholder,
-      .wpcf7 .form-group input[type=color]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=color]:hover::placeholder,
-      .form-group .wpcf7 input[type=email]:hover::placeholder,
-      .wpcf7 .form-group input[type=email]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=email]:hover::placeholder,
-      .form-group .wpcf7 input[type=file]:hover::placeholder,
-      .wpcf7 .form-group input[type=file]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=file]:hover::placeholder,
-      .form-group .wpcf7 input[type=submit]:hover::placeholder,
-      .wpcf7 .form-group input[type=submit]:hover::placeholder,
-      .wpcf7 .wpcf7-form p input[type=submit]:hover::placeholder,
-      .form-group .wpcf7 input.wpcf7-validation-errors:hover::placeholder,
-      .wpcf7 .form-group input.wpcf7-validation-errors:hover::placeholder,
-      .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:hover::placeholder {
+      .form-group select.form-control:hover:placeholder,
+      .form-group .wpcf7 select:hover:placeholder, .wpcf7 .form-group select:hover:placeholder,
+      .wpcf7 .wpcf7-form p select:hover:placeholder,
+      .form-group textarea.form-control:hover:placeholder,
+      .form-group .wpcf7 textarea:hover:placeholder,
+      .wpcf7 .form-group textarea:hover:placeholder,
+      .wpcf7 .wpcf7-form p textarea:hover:placeholder,
+      .form-group input.form-control:hover:placeholder,
+      .wpcf7 .wpcf7-form p input.form-control:hover:placeholder,
+      .form-group .wpcf7 input:hover:placeholder[type=text],
+      .wpcf7 .form-group input:hover:placeholder[type=text],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=text],
+      .form-group .wpcf7 input:hover:placeholder[type=search],
+      .wpcf7 .form-group input:hover:placeholder[type=search],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=search],
+      .form-group .wpcf7 input:hover:placeholder[type=url],
+      .wpcf7 .form-group input:hover:placeholder[type=url],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=url],
+      .form-group .wpcf7 input:hover:placeholder[type=tel],
+      .wpcf7 .form-group input:hover:placeholder[type=tel],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=tel],
+      .form-group .wpcf7 input:hover:placeholder[type=number],
+      .wpcf7 .form-group input:hover:placeholder[type=number],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=number],
+      .form-group .wpcf7 input:hover:placeholder[type=range],
+      .wpcf7 .form-group input:hover:placeholder[type=range],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=range],
+      .form-group .wpcf7 input:hover:placeholder[type=date],
+      .wpcf7 .form-group input:hover:placeholder[type=date],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=date],
+      .form-group .wpcf7 input:hover:placeholder[type=month],
+      .wpcf7 .form-group input:hover:placeholder[type=month],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=month],
+      .form-group .wpcf7 input:hover:placeholder[type=week],
+      .wpcf7 .form-group input:hover:placeholder[type=week],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=week],
+      .form-group .wpcf7 input:hover:placeholder[type=time],
+      .wpcf7 .form-group input:hover:placeholder[type=time],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=time],
+      .form-group .wpcf7 input:hover:placeholder[type=datetime],
+      .wpcf7 .form-group input:hover:placeholder[type=datetime],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=datetime],
+      .form-group .wpcf7 input:hover:placeholder[type=datetime-local],
+      .wpcf7 .form-group input:hover:placeholder[type=datetime-local],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=datetime-local],
+      .form-group .wpcf7 input:hover:placeholder[type=color],
+      .wpcf7 .form-group input:hover:placeholder[type=color],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=color],
+      .form-group .wpcf7 input:hover:placeholder[type=email],
+      .wpcf7 .form-group input:hover:placeholder[type=email],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=email],
+      .form-group .wpcf7 input:hover:placeholder[type=file],
+      .wpcf7 .form-group input:hover:placeholder[type=file],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=file],
+      .form-group .wpcf7 input:hover:placeholder[type=submit],
+      .wpcf7 .form-group input:hover:placeholder[type=submit],
+      .wpcf7 .wpcf7-form p input:hover:placeholder[type=submit],
+      .form-group .wpcf7 input.wpcf7-validation-errors:hover:placeholder,
+      .wpcf7 .form-group input.wpcf7-validation-errors:hover:placeholder,
+      .wpcf7 .wpcf7-form p input.wpcf7-validation-errors:hover:placeholder {
         color: #fff; }
     .form-group select.form-control:focus,
     .form-group .wpcf7 select:focus, .wpcf7 .form-group select:focus,
@@ -12218,6 +11848,91 @@ input.form-control-lg,
       -webkit-box-shadow: 0 0 0 0.2rem rgba(201, 211, 2, 0.25);
               box-shadow: 0 0 0 0.2rem rgba(201, 211, 2, 0.25); }
 
+.input {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 1em;
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle; }
+  .input.textarea {
+    max-width: inherit;
+    width: 100%; }
+  .input--madoka {
+    margin: .1em; }
+  .input__label {
+    display: inline-block;
+    float: right;
+    padding: 0 1em;
+    width: 40%;
+    color: #1b6ac8;
+    font-weight: bold;
+    font-size: 70.25%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+    .input__label-content {
+      position: relative;
+      display: block;
+      padding: 1.6em 0;
+      width: 100%; }
+    .input__label--madoka {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      color: #1b6ac8;
+      text-align: right;
+      cursor: text; }
+  .input__field {
+    position: relative;
+    display: block;
+    float: right;
+    padding: .8em 69px 0.8em 7px;
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    color: #1b6ac8;
+    font-weight: bold;
+    -webkit-appearance: none; }
+    .input__field--madoka {
+      width: 100%;
+      background: transparent;
+      color: #1b6ac8; }
+
+.graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: none; }
+  .graphic--madoka {
+    -webkit-transform: scale3d(1, -1, 1);
+            transform: scale3d(1, -1, 1);
+    -webkit-transition: stroke-dashoffset 0.3s;
+    transition: stroke-dashoffset 0.3s;
+    pointer-events: none;
+    stroke: #1b6ac8;
+    stroke-width: 4px;
+    stroke-dasharray: 962;
+    stroke-dashoffset: 558; }
+    .graphic--madoka.textarea {
+      stroke-width: 1px; }
+
+.input__field--madoka:focus + .input__label--madoka,
+.input--filled .input__label--madoka {
+  cursor: default;
+  pointer-events: none; }
+
+.input__field--madoka:focus + .input__label--madoka .graphic--madoka, .input--filled .graphic--madoka {
+  stroke-dashoffset: 0; }
+
+.input__field--madoka:focus + .input__label--madoka .input__label-content--madoka,
+.input--filled .input__label-content--madoka {
+  -webkit-transform: translate3d(0, 3em, 0);
+          transform: translate3d(0, 3em, 0); }
+
 .btn,
 .wpcf7 input[type=submit] {
   border: none;
@@ -12243,6 +11958,14 @@ input.form-control-lg,
     white-space: nowrap;
     font-size: 0;
     opacity: 0; }
+  .btn_icon {
+    line-height: 0; }
+  .btn_circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center; }
   .btn_line {
     border-width: 2px;
     border-style: solid; }
@@ -12355,7 +12078,7 @@ input.form-control-lg,
 .slick-slide {
   display: none;
   float: left;
-  height: 100%;
+  height: 103vh;
   min-height: 1px; }
 
 [dir='rtl'] .slick-slide {
@@ -12385,7 +12108,7 @@ input.form-control-lg,
   display: none; }
 
 .header_site {
-  padding: 0 !important; }
+  padding-top: 22px; }
 
 #main-menu {
   padding-right: 2.2em;
@@ -12621,6 +12344,9 @@ ul.slider_customer li {
       margin: 0 auto;
       background: transparent url("../img/company--light.png") no-repeat top center/100%; }
 
+.bgc--blue {
+  background-color: #1b6ac8; }
+
 .bgc--gainsboro {
   background-color: #e3e2e2; }
 
@@ -12641,6 +12367,18 @@ ul.slider_customer li {
 
 .bgc--header {
   background-color: rgba(0, 0, 0, 0.78); }
+
+.cl--blue {
+  color: #1b6ac8;
+  fill: currencolor; }
+  .cl--blue h2, .cl--blue h3, .cl--blue h4, .cl--blue h5, .cl--blue h6, .cl--blue p, .cl--blue b, .cl--blue small {
+    color: #1b6ac8; }
+
+.cl--black {
+  color: #000000;
+  fill: currentcolor; }
+  .cl--black h2, .cl--black h3, .cl--black h4, .cl--black h5, .cl--black h6, .cl--black p, .cl--black b, .cl--black small {
+    color: #000000; }
 
 .cl--white {
   color: #fff;
@@ -12674,6 +12412,8 @@ ul.slider_customer li {
     width: 111px;
     height: 2px;
     margin: 25px auto; }
+  .box_title_line_blue:after {
+    background-color: #1b6ac8; }
   .box_title_line_green:after {
     background-color: #c9d302; }
   .box_title_line_black:after {
@@ -12737,7 +12477,7 @@ ul.slider_customer li {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 10, 0.06)), color-stop(95%, #010101), to(black));
   background: linear-gradient(to bottom, rgba(10, 10, 10, 0.06) 0%, #010101 95%, black 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#000000', GradientType=0 );
-  padding-bottom: 150px; }
+  padding-bottom: 125px; }
 
 .mg_box--min {
   margin: 15px; }
@@ -12977,6 +12717,12 @@ ul.slider_customer li {
 .txt_size--min {
   font-size: 15.2px;
   font-size: 0.95rem; }
+  .txt_size--minx1 {
+    font-size: 16px;
+    font-size: 1rem; }
+  .txt_size--minx2 {
+    font-size: 32px;
+    font-size: 2rem; }
 
 .txt_size--med {
   font-size: 88px;

@@ -3,6 +3,24 @@ var name = "Sergio Andres";
 console.log(name);*/
 var $ = jQuery;
 $(document).ready(function(){
+    //- input animate 2
+    //var inputFocus = $('span.input--madoka input');
+    var inputFocusName = $('input.name');
+    var inputFocusLastName = $('input.lastname');
+    var inputSpan = $('span.inputName');
+    /*inputFocus.focus(function () {
+        inputSpan.addClass('input--filled');
+    });*/
+    inputFocusLastName.focus(function () {
+        inputSpan.addClass('input--filled');
+    });
+    inputFocusName.focus(function () {
+        inputSpan.addClass('input--filled');
+    });
+    inputFocusName.focusout(function () {
+        inputSpan.removeClass('input--filled');
+    });
+    //-- menu open
     var btnOpen = $('#trigger-overlay');
     var btnClose = $('.overlay_close');
     var menu = $('.overlay_contentpush');
