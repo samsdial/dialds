@@ -104,7 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <?php else: ?>
-                    <div class="row align-items-end no-gutters box_top--service hover_solutions" data-aos="fade-left">
+                    <div class="row align-items-end no-gutters hover_solutions" data-aos="fade-left">
                         <div class="col-12 col-md-5 order-last bgc--blue aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
@@ -136,11 +136,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 <!--start-->
 <!--Whout Clientes-->
-<section class="bgi bgi_customer pd_bottom--x50 pd_top--x200 mt-5">
+<section class="bgi bgi_customer pd_bottom--x150 pd_top--x150 mt-5" style="background-image: url(<?php the_field('bg_customes', 'options'); ?>);">
     <div class="container">
         <div class="col-12 my-5">
-            <div class="title cl_black text-center txt_capital txt_bold display-3" data-aos="fade-up">
-                <?php the_field('title_customers','options')?>
+            <div class="box_title_line box_title_line_blue">
+                <div class="title cl_black text-center txt_upper display-4" data-aos="fade-up">
+                    <?php the_field('title_customers','options')?>
+                </div>
             </div>
         </div>
     </div>
@@ -151,11 +153,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <li>
                         <div class="col bgc--white py-5 px-5" data-aos="flip-left">
                             <div class="icon icon_customer icon_customer_hpe mb-2" style="background-image: url(<?php echo the_sub_field('logo_customer'); ?>)"></div>
-                            <div class="paragraf txt_ffSecond my-5">
-                                <?php echo the_sub_field('customer_comment'); ?>
-                            </div>
-                            <div class="title txt_ffSecond txt_bold mt-2">
+                            <div class="title txt_ffSecond txt_bold mt-2 cl--blue">
                                 <?php echo the_sub_field('name_customer'); ?>
+                            </div>
+                            <div class="paragraf txt_ffSecond my-5 cl--black">
+                                <?php echo the_sub_field('customer_comment'); ?>
                             </div>
                         </div>
                     </li>
@@ -223,8 +225,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="form-row" >
                         <div class="form-group col-12 col-sm-6" data-aos="fade-right">
                             <span class="input input--madoka inputName"> <!--ADD JS // input--filled-->
-                                <input class="input__field input__field--madoka name" type="text" id="input-31">
-                                <label class="input__label input__label--madoka" for="input-31">
+                                <input class="input__field input__field--madoka name" type="text" id="name">
+                                <label class="input__label input__label--madoka" for="name">
                                     <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
                                         <path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
                                     </svg>
@@ -233,7 +235,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </span>
                         </div>
                         <div class="form-group col-12 col-sm-6" data-aos="fade-left">
-                            <span class="input input--madoka "> <!--ADD JS // input--filled-->
+                            <span class="input input--madoka inputLastName"> <!--ADD JS // input--filled-->
                                 <input class="input__field input__field--madoka lastname" type="text" id="lastname">
                                 <label class="input__label input__label--madoka" for="lastname">
                                     <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
@@ -246,8 +248,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="form-row" >
                         <div class="form-group col-12 col-sm-6" data-aos="fade-right">
-                            <span class="input input--madoka "> <!--ADD JS // input--filled-->
-                                <input class="input__field input__field--madoka name" type="text" id="email">
+                            <span class="input input--madoka inputEmail"> <!--ADD JS // input--filled-->
+                                <input class="input__field input__field--madoka email" type="text" id="email">
                                 <label class="input__label input__label--madoka" for="email">
                                     <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
                                         <path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
@@ -257,7 +259,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </span>
                         </div>
                         <div class="form-group col-12 col-sm-6" data-aos="fade-left">
-                            <span class="input input--madoka "> <!--ADD JS // input--filled-->
+                            <span class="input input--madoka inputPhone"> <!--ADD JS // input--filled-->
                                 <input class="input__field input__field--madoka phone" type="text" id="phone">
                                 <label class="input__label input__label--madoka" for="phone">
                                     <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
@@ -272,7 +274,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="form-group col-12 col-sm-6" data-aos="fade-right">
                         </div>
                         <div class="form-group col-12 col-sm-6" data-aos="fade-left">
-                            <span class="input input--madoka "> <!--ADD JS // input--filled-->
+                            <span class="input input--madoka inputCity"> <!--ADD JS // input--filled-->
                                 <input class="input__field input__field--madoka city" type="text" id="city">
                                 <label class="input__label input__label--madoka" for="city">
                                     <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
@@ -286,7 +288,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                     <div class="form-row" data-aos="fade-left">
                         <div class="form-group col">
-                            <span class="input textarea input--madoka "> <!--ADD JS // input--filled-->
+                            <span class="input textarea input--madoka inputMessage"> <!--ADD JS // input--filled-->
                                 <textarea class="input__field input__field--madoka message" name="mesagge" id="message" cols="30" rows="10"></textarea>
                                 <label class="input__label input__label--madoka" for="message">
                                     <svg class="graphic graphic--madoka textarea" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
@@ -298,7 +300,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <div class="d-block" data-aos="flip-up">
-                        <button class="btn btn--full btn_site--green submit txt_upper txt_bold"type="submit">submit Form</button>
+                        <button class="btn btn--full btn_site--blue submit txt_upper txt_bold"type="submit">Enviar</button>
                     </div>
                     </form>
             </div>

@@ -25,6 +25,7 @@ select.form-control-lg
 select,
 textarea,
 input
+  outline: inherit
   &.form-control-lg
     padding: 1.2rem 1.2rem
 .form-group
@@ -81,6 +82,7 @@ input
       display: block
       padding: 1.6em 0
       width: 100%
+      transition: $transition-base
     &--madoka
       position: absolute
       width: 100%
@@ -129,3 +131,6 @@ input
 .input__field--madoka:focus + .input__label--madoka .input__label-content--madoka,
 .input--filled .input__label-content--madoka
   transform: translate3d(0,3em,0)
+textarea.input__field--madoka:focus + .input__label--madoka .input__label-content--madoka,
+.input--filled textarea.input__label-content--madoka
+  transform: translate3d(0,22.5em,0)
