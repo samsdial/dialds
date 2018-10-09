@@ -17,6 +17,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/safari-pinned-tab.svg" color="#052c3e">
+    <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#052c3e">
+    <meta name="msapplication-config" content="<?php echo esc_url( home_url( '/' ) ); ?>img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#052c3e">
 	<meta name="apple-mobile-web-app-title" content="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">

@@ -61,7 +61,91 @@ $(document).ready(function(){
         $('span.inputMessage').removeClass('input--filled');
     });
     /*  END -- Input Mail focus */
+    /* START------  FE Form envio*/
+    $('#submit').click(function(){
+        var name        = $("#name").val();
+        var lastName    = $("#lastname").val();
+        var email       = $("#email").val();
+        var validacion_email = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
+        var phone       = $("#phone").val();
+        var city       = $("#city").val();
+        var message       = $("#message").val();
 
+        if(name == "" || lastName == "" || email == "" || phone == "" || city == "" || message == ""){
+            if(name == ""){
+                $(".name + label > span.input__label-content").addClass("i");
+                $("#name").focus();
+                return false;
+            }else{
+                $(".name + label > span.input__label-content").removeClass("i");
+            }
+            if(lastName == ""){
+                $(".lastname + label > span.input__label-content").addClass("i");
+                $("#lastname").focus();
+                return false;
+            }else{
+                $(".lastname + label > span.input__label-content").removeClass("i");
+            }
+            if(email == "" || !validacion_email.test(email)){
+                $(".email + label > span.input__label-content").addClass("i");
+                $("#email").focus();
+                return false;
+            }else{
+                $(".email + label > span.input__label-content").removeClass("i");
+            }
+            if(phone == ""){
+                $(".phone + label > span.input__label-content").addClass("i");
+                $("#phone").focus();
+                return false;
+            }else{
+                $(".phone + label > span.input__label-content").removeClass("i");
+            }
+            if(city == ""){
+                $(".city + label > span.input__label-content").addClass("i");
+                $("#city").focus();
+                return false;
+            }else{
+                $(".city + label > span.input__label-content").removeClass("i");
+            }
+            if(message == ""){
+                $(".message + label > span.input__label-content").addClass("i");
+                $("#message").focus();
+                return false;
+            }else{
+                $(".message + label > span.input__label-content").removeClass("i");
+            }
+        }else{
+            $(".message + .input__label-content").removeClass("i");
+            var datos = '&name=' + name +
+                '&lastName=' + lastName +
+                '&email=' + email +
+                '&phone=' + phone +
+                '&city=' + city +
+                '&message=' + message;
+            $.ajax({
+                method:"Post",
+                url:"<?php echo esc_url( home_url( '/' ) ); ?>contact.php",
+                dataType:"json",
+                data:datos,
+            }).done(function( msg ){
+                if(msg.success){
+                    $('.alert small').fadeIn("slow");
+                    $('.alert small').html('Muchas Gracias por contáctarnos, pronto nos estaremos comunicando contigo.');
+                    $('#name').val("");
+                    $('#lastname').val("");
+                    $('#email').val("");
+                    $('#phone').val("");
+                    $('#city').val("");
+                    $('#message').val("");
+                }else{
+                    $('.alert small').fadeIn("slow");
+                    $('.alert small').html('Error, intente más tarde por favor.');
+                }
+            });
+            return false;
+        }
+    });
+    /* END------  FE Form envio*/
     //-- menu open
     var btnOpen = $('#trigger-overlay');
     var btnClose = $('.overlay_close');

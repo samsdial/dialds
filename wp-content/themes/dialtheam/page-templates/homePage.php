@@ -285,7 +285,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </span>
                         </div>
                     </div>
-
                     <div class="form-row" data-aos="fade-left">
                         <div class="form-group col">
                             <span class="input textarea input--madoka inputMessage"> <!--ADD JS // input--filled-->
@@ -299,8 +298,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </span>
                         </div>
                     </div>
+                    <div class="d-block">
+                        <div class="alert cl--red">
+                            <small>error</small>
+                        </div>
+                    </div>
                     <div class="d-block" data-aos="flip-up">
-                        <button class="btn btn--full btn_site--blue submit txt_upper txt_bold"type="submit">Enviar</button>
+                        <button id="submit" class="btn btn--full btn_site--blue submit txt_upper" type="submit">Enviar</button>
                     </div>
                     </form>
             </div>

@@ -1,0 +1,14 @@
+{
+    "name": "DialAPP",
+    "short_name": "DialAPP",
+    "icons": [
+        {
+            "src": "/img/favicon/android-chrome-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#052c3e",
+    "background_color": "#052c3e",
+    "display": "standalone"
+}

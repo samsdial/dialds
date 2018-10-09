@@ -11374,8 +11374,7 @@ html * {
   -ms-text-size-ajust: 100%;
   -moz-text-size-ajust: 100%;
   -webkit-text-size-ajust: 100%;
-  text-size-ajust: 100%;
-  color: #fff; }
+  text-size-ajust: 100%; }
 
 html {
   font-size: 62.5%; }
@@ -11395,7 +11394,7 @@ a {
   transition: all 0.3s ease-in-out; }
   a:hover, a:active, a:focus {
     text-decoration: none;
-    color: #c9d302; }
+    color: #007bff; }
   @media only screen and (min-width: 768px) {
     a {
       font-size: 1.6rem; } }
@@ -11944,6 +11943,9 @@ textarea.input__field--madoka:focus + .input__label--madoka .input__label-conten
   -webkit-transform: translate3d(0, 22.5em, 0);
           transform: translate3d(0, 22.5em, 0); }
 
+.input__label-content.i {
+  color: red; }
+
 .btn,
 .wpcf7 input[type=submit] {
   border: none;
@@ -11988,9 +11990,9 @@ textarea.input__field--madoka:focus + .input__label--madoka .input__label-conten
     transition: all 500ms ease;
     white-space: inherit !important; }
     .btn_innove:hover, .btn_innove:active, .btn_innove:focus {
-      border-color: transparent;
+      border-color: #0A5593;
       color: white;
-      background-color: #c9d302; }
+      background-color: #007bff; }
   .btn--full {
     width: 100%;
     display: block; }
@@ -12210,8 +12212,8 @@ button.navbar-toggler:focus {
     visibility: hidden;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
     -webkit-transition: visibility 0s 0.5s, -webkit-transform 0.5s;
     transition: visibility 0s 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, visibility 0s 0.5s;
@@ -12406,6 +12408,10 @@ ul.slider_customer li {
 
 .cl--gray {
   color: #808080; }
+
+.cl--red {
+  color: #dc3545;
+  fill: #dc3545; }
 
 .box_triangle {
   position: relative; }
