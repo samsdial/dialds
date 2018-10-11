@@ -176,6 +176,8 @@ $(document).ready(function(){
                settings: {
                    slidesToShow: 3,
                    slidesToScroll: 3,
+                   centerMode: true,
+                   centerPadding: '40px',
                    infinite: true,
                    dots: true
                }
@@ -184,6 +186,8 @@ $(document).ready(function(){
                breakpoint: 992,
                settings: {
                    slidesToShow: 2,
+                   centerMode: true,
+                   centerPadding: '40px',
                    slidesToScroll: 2
                }
            },
@@ -191,6 +195,8 @@ $(document).ready(function(){
                breakpoint: 768,
                settings: {
                    slidesToShow: 1,
+                   centerMode: true,
+                   centerPadding: '40px',
                    slidesToScroll: 1
                }
            }
