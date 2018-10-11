@@ -83,10 +83,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                 ?>
                 <?php if($item1):?>
                     <div class="row align-items-start no-gutters hover_solutions" data-aos="fade-right">
-                        <div class="col-12 col-md-5 bgc--blue aling_btn--right">
+                        <div class="col-12 col-md-5 aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
-                                    <div class="item txt_ffSecond cl--black pd_box--x70 h2 txt_center">
+                                    <div class="item cl--white pd_box--x20 h2 txt_right">
                                             <?php echo the_sub_field('description'); ?>
                                     </div>
                                 </div>
@@ -105,10 +105,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <?php else: ?>
                     <div class="row align-items-end no-gutters hover_solutions" data-aos="fade-left">
-                        <div class="col-12 col-md-5 order-last bgc--blue aling_btn--right">
+                        <div class="col-12 col-md-5 order-last aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
-                                    <div class="item txt_ffSecond cl--black pd_box--x70 h2 txt_center">
+                                    <div class="item cl--white pd_box--x20 h2 txt_left">
                                             <?php echo the_sub_field('description'); ?>
                                     </div>
                                 </div>
