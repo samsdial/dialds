@@ -86,7 +86,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="col-12 col-md-5 aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
-                                    <div class="item cl--white pd_box--x20 h2 txt_right">
+                                    <div class="item cl--white pd_box--x20 txt_right">
                                             <?php echo the_sub_field('description'); ?>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="col-12 col-md-5 order-last aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
-                                    <div class="item cl--white pd_box--x20 h2 txt_left">
+                                    <div class="item cl--white pd_box--x20 txt_left">
                                             <?php echo the_sub_field('description'); ?>
                                     </div>
                                 </div>
