@@ -82,7 +82,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 $item1 = $rowNum % 2 === 0;
                 ?>
                 <?php if($item1):?>
-                    <div class="row align-items-start no-gutters hover_solutions" data-aos="fade-right">
+                    <div class="row align-items-center no-gutters hover_solutions" data-aos="fade-right">
                         <div class="col-12 col-md-5 aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
@@ -104,7 +104,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <?php else: ?>
-                    <div class="row align-items-end no-gutters hover_solutions" data-aos="fade-left">
+                    <div class="row align-items-center no-gutters hover_solutions" data-aos="fade-left">
                         <div class="col-12 col-md-5 order-last aling_btn--right">
                             <div class="row no-gutters">
                                 <div class="col-12">
@@ -152,7 +152,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <?php while(has_sub_field('slider_item_clients', 'options')): ?>
                     <li>
                         <div class="col bgc--white py-5 px-5" data-aos="flip-left">
-                            <div class="icon icon_customer icon_customer_hpe mb-2" style="background-image: url(<?php echo the_sub_field('logo_customer'); ?>)"></div>
+                            <!--<div class="icon icon_customer icon_customer_hpe mb-2" style="background-image: url(<?php /*echo the_sub_field('logo_customer'); */?>)"></div>-->
+                            <div class="cl--blue txt_size--max">
+                                <i class="fa cl--blue fa-<?php echo the_sub_field('name_service'); ?>"></i>
+                            </div>
                             <div class="title txt_ffSecond txt_bold mt-2 cl--blue">
                                 <?php echo the_sub_field('name_customer'); ?>
                             </div>
