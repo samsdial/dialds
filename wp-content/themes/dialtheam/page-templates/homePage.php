@@ -91,12 +91,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </div>
                                 </div>
                                 <div class="col align-self-end txt_right">
-                                    <div class="btn btn_site--gray txt_upper">
+                                    <div class="btn btn_site--icon txt_upper">
                                         <?php echo the_sub_field('title_button'); ?> <i class="fa fa-angle-right ml-4"></i>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#" class="btn btn_ghost">Go..</a>
+                            <!--<a href="#" class="btn btn_ghost">Go..</a>-->
                         </div>
                         <div class="col-12 col-sm-8 col-md-7" style="overflow: hidden;">
                             <div class="w-100 bgi bgi_item--service" style="background-image: url(<?php echo the_sub_field('imagen'); ?>);">
@@ -113,12 +113,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </div>
                                 </div>
                                 <div class="col align-self-end txt_left">
-                                    <div class="btn btn_site--gray txt_upper">
+                                    <div class="btn btn_site--icon txt_upper">
                                         <i class="fa fa-angle-left mr-4"></i><?php echo the_sub_field('title_button'); ?>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#" class="btn btn_ghost">Go..</a>
+                            <!--<a href="#" class="btn btn_ghost">Go..</a>-->
                         </div>
                         <div class="col-12 col-md-7 order-first" style="overflow: hidden;">
                             <div class="bgi bgi_item--service" style="background-image: url(<?php echo the_sub_field('imagen'); ?>);">

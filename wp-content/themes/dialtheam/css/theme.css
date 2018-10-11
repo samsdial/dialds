@@ -12017,6 +12017,38 @@ textarea.input__field--madoka:focus + .input__label--madoka .input__label-conten
     .btn_site span.icon:after {
       content: "+";
       margin-right: 12px; }
+    .btn_site--icon i.fa {
+      background-color: #007bff;
+      text-align: center;
+      vertical-align: middle;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      -webkit-transition: all 500ms ease;
+      transition: all 500ms ease;
+      position: relative; }
+    .btn_site--icon:hover i.fa:after, .btn_site--icon:active i.fa:after, .btn_site--icon:focus i.fa:after {
+      width: 35px;
+      height: 35px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      content: "";
+      display: block;
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      pointer-events: none;
+      border: 2px solid #007bff;
+      border-radius: 50%;
+      -webkit-animation-duration: 1.2s;
+              animation-duration: 1.2s;
+      -webkit-animation-name: intervalHamburgerBorder;
+              animation-name: intervalHamburgerBorder;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite; }
+    .btn_site--icon i.fa-angle-right:before,
+    .btn_site--icon i.fa-angle-left:before {
+      vertical-align: sub; }
     .btn_site--gray {
       background-color: #393939;
       color: #fff;
@@ -12930,6 +12962,32 @@ hr {
     background-color: #c9d302; }
   .underline--black {
     background-color: #000000; }
+
+@-webkit-keyframes intervalHamburgerBorder {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  80% {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6); } }
+
+@keyframes intervalHamburgerBorder {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  80% {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6); } }
 
 .wpcf7 {
   max-width: 600px;

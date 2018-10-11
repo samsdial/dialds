@@ -58,6 +58,36 @@
       &:after
         content: "+"
         margin-right: 12px
+    &--icon
+      i.fa
+        background-color: $blue
+        text-align: center
+        vertical-align: middle
+        width: 25px
+        height: 25px
+        border-radius: 50%
+        transition: $trs-site
+        position: relative
+      +press
+        i.fa:after
+            width: 35px
+            height: 35px
+            box-sizing: border-box
+            content: ""
+            display: block
+            position: absolute
+            top: -5px
+            left: -5px
+            pointer-events: none
+            border: 2px solid $blue
+            border-radius: 50%
+            animation-duration: 1.2s
+            animation-name: intervalHamburgerBorder
+            animation-iteration-count: infinite
+      i.fa-angle-right:before,
+      i.fa-angle-left:before
+        vertical-align: sub
+
     &--gray
       background-color: $OPTGray
       color: $white
