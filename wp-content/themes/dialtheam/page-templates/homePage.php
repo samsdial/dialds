@@ -195,7 +195,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <?php while(has_sub_field('data_addres', 'options')): ?>
                                     <li>
                                         <a href="<?php echo the_sub_field('link_url'); ?>" target="_blank">
-                                            <span class="icon icon_item" style="background-image: url(<?php echo the_sub_field('icono'); ?>)"></span>
+                                            <!--<span class="icon icon_item" style="background-image: url(<?php /*echo the_sub_field('icono'); */?>)"></span>-->
+                                            <i class="fa mr-4 fa-<?php echo the_sub_field('icono_addres'); ?>"></i>
                                             <span class="mg_left--x5 txt_data"><?php echo the_sub_field('date'); ?></span>
                                         </a>
                                     </li>

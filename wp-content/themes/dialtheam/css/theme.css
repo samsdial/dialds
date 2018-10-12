@@ -12830,9 +12830,9 @@ ul.slider_customer li {
           .list--addres li span {
             display: inline-block; } }
       .list--addres li a {
-        color: #000000; }
+        color: #fff; }
         .list--addres li a:hover, .list--addres li a:active, .list--addres li a:focus {
-          color: #c9d302;
+          color: #007bff;
           text-decoration: none; }
   .list--inline {
     padding-right: 0px;
