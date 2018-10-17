@@ -303,7 +303,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="d-block">
                         <div class="alert cl--red">
-                            <small>error</small>
                         </div>
                     </div>
                     <div class="d-block" data-aos="flip-up">
