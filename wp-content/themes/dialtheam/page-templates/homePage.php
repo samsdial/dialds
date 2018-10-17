@@ -214,8 +214,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <ul class="list--inline">
                                 <?php while(has_sub_field('data_social', 'options')): ?>
                                     <li>
-                                        <a href="<?php echo the_sub_field('social_link'); ?>" target="_blank">
-                                            <i class="fa mr-4 fa-<?php echo the_sub_field('name_social'); ?>-square"></i>
+                                        <a href="<?php echo the_sub_field('social_link'); ?>" target="_blank" class="fa fa-social mr-4 fa-<?php echo the_sub_field('name_social'); ?>-square">
                                         </a>
                                     </li>
                                 <?php endwhile; ?>
